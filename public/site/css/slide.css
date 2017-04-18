@@ -1,0 +1,75 @@
+/* .ck-slide ul { margin: 0; padding: 0; list-style-type: none;}
+.ck-slide { position: relative; overflow: hidden;}
+.ck-slide ul.ck-slide-wrapper { position: absolute; top: 0; left: 0; z-index: 1; margin: 0; padding: 0;}
+.ck-slide ul.ck-slide-wrapper li { position: absolute;}
+.ck-slide .ck-prev, .ck-slide .ck-next { position: absolute; top: 50%; z-index: 2; width: 35px; height: 70px; margin-top: -35px; border-radius: 3px; opacity: .15; background: red; text-indent: -9999px; background-repeat: no-repeat; transition: opacity .2s linear 0s;}
+.ck-slide .ck-prev { left: 5px; background: url(../images/arrow-left-dark.png) #000 50% no-repeat;}
+.ck-slide .ck-next { right: 5px; background: url(../images/arrow-right-dark.png) #000 50% no-repeat;}
+.ck-slidebox { position: absolute; left: 50%; bottom: 30px; z-index: 1;}
+.ck-slidebox ul { height: 20px; padding: 0 4px; border-radius: 8px; background: rgba(0,0,0,0.5);}
+.ck-slidebox ul li { float: left; height: 12px; margin: 4px 4px;}
+.ck-slidebox ul li em { display: block; width: 12px; height: 12px; border-radius: 100%; background-color: #fff; text-indent: -9999px; cursor: pointer;}
+.ck-slidebox ul li.current em { background-color: #fe6500;}
+.ck-slidebox ul li em:hover { background-color: #fe6500;} */
+
+ul{
+    margin: 0;
+}
+.home{
+  position: relative; width: 100%; height: 417px;
+}
+.home_nav
+{
+    width: 150px;
+    position: absolute;
+    z-index: 10;
+    margin: 50px 0;
+    font-size: 0;
+    background-color: rgba(182,132,18,0.5);
+}
+
+.wraper
+{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*.nav{ position:relative; width:100%; background:#C70757; overflow:hidden}*/
+.wraper_body
+{
+    width: 100%;
+    background: transparent;
+    border: 0;
+}
+.nav-item
+{
+    position: relative;
+    
+    text-align: center;
+    
+    z-index: 1;
+}
+.nav-item a
+{
+    display: block;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size:14px;
+}
+.nav-item a:hover
+{
+    color: #fff;
+}
+.move-bg
+{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    background-color: rgba(182,132,18,1);
+    z-index: 0;
+    width: 100%;
+}
